@@ -1,4 +1,4 @@
-export default interface PostType {
+export type PostType = {
   post_id: string;
   title: string;
   content: string;
@@ -6,4 +6,4 @@ export default interface PostType {
   tags: string[];
   url_string: string;
   views: number;
-}
+};

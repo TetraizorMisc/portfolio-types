@@ -2,12 +2,11 @@
   "name": "portfolio-types",
   "version": "1.0.0",
   "description": "A collection of shared TypeScript types for my personal website.",
-  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TetraizorMisc/portfolio-types.git"
@@ -25,7 +24,7 @@
     "utilities"
   ],
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.2"
   },
   "files": [
     "dist",
