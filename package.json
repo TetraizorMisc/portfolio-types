@@ -1,8 +1,8 @@
 {
   "name": "portfolio-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of shared TypeScript types for my personal website.",
-  "types": "dist/index.d.ts",
+  "types": "./src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
@@ -27,7 +27,7 @@
     "typescript": "^5.7.2"
   },
   "files": [
-    "dist",
+    "./src/index.d.ts",
     "README.md"
   ]
 }
