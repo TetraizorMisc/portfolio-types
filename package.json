@@ -1,0 +1,34 @@
+{
+  "name": "portfolio-types",
+  "version": "1.0.0",
+  "description": "A collection of shared TypeScript types for my personal website.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetraizorMisc/portfolio-types.git"
+  },
+  "author": "Umuthan Özel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TetraizorMisc/portfolio-types/issues"
+  },
+  "homepage": "https://github.com/TetraizorMisc/portfolio-types#readme",
+  "keywords": [
+    "typescript",
+    "types",
+    "shared",
+    "utilities"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
