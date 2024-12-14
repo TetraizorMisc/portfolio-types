@@ -1,2 +1,2 @@
-import { PostType } from "./PostType";
-import { FeaturedType } from "./FeaturedType";
+export { PostType } from "./PostType";
+export { FeaturedType } from "./FeaturedType";
