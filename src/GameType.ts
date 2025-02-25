@@ -17,4 +17,5 @@ export type GameType = {
   ost_score: number;
   gameplay_score: number;
   story_score: number;
+  tags: string[];
 };
