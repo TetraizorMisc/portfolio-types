@@ -7,7 +7,7 @@ export enum GameState {
   Perfected,
 }
 
-export type GameType = {
+export type GameLogType = {
   game_id: string;
   title: string;
   description: string;

@@ -1,4 +1,4 @@
 export { PostType } from "./PostType";
 export { FeaturedType } from "./FeaturedType";
-export { GameType } from "./GameType";
+export { GameLogType } from "./GameLogType";
 export { GameTagType } from "./GameTagType";
