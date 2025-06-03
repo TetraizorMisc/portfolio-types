@@ -8,8 +8,9 @@ export enum GameState {
 }
 
 export type GameLogType = {
-  game_id: string;
+  game_log_id: string;
   title: string;
+  slug: string;
   description: string;
   thumbnail_url: string;
   state: GameState;
