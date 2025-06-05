@@ -1,11 +1,4 @@
-export enum GameState {
-  Backlog,
-  Playing,
-  Completed,
-  Dropped,
-  Endless,
-  Perfected,
-}
+import { GameState } from "./GameState";
 
 export type GameLogType = {
   game_log_id: string;
