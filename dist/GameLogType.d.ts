@@ -10,5 +10,6 @@ export type GameLogType = {
     ost_score: number;
     gameplay_score: number;
     story_score: number;
+    overall_rank: number;
     tags: string[];
 };
