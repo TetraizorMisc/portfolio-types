@@ -3,3 +3,5 @@ export { FeaturedType } from "./FeaturedType";
 export { GameLogType } from "./GameLogType";
 export { GameTagType } from "./GameTagType";
 export { GameState, parseGameState } from "./GameState";
+export { GameScore } from "./GameScore";
+export { ScoreCategory } from "./ScoreCategory";

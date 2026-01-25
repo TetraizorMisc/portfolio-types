@@ -1,3 +1,4 @@
+import { GameScore } from "./GameScore";
 import { GameState } from "./GameState";
 
 export type GameLogType = {
@@ -8,9 +9,7 @@ export type GameLogType = {
   thumbnail_url: string;
   state: GameState;
   overall_score: number;
-  ost_score: number;
-  gameplay_score: number;
-  story_score: number;
   overall_rank: number;
   tags: string[];
+  scores: GameScore[];
 };
